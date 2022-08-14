@@ -18,7 +18,13 @@ astra.db:
   id: <db-id>
   region: asia-south1
   keyspace: main
-  application.token: <token>
+  application.token: <app-token>
+
+datadump.location:
+  authors: D:\betterreads-app\betterreads-data-loader\src\main\resources\test_authors.txt
+  works: D:\betterreads-app\betterreads-data-loader\src\main\resources\test_works.txt
+
+spring.main.allow-circular-references: true
 
 
 
